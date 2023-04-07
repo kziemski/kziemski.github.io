@@ -5,8 +5,8 @@ import yaml from '@rollup/plugin-yaml';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://kryspinziemski.info',
   integrations: [tailwind()],
-  outDir: './docs',
   vite: {
     plugins:[yaml()],
     ssr: {
