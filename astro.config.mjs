@@ -7,7 +7,6 @@ import yaml from '@rollup/plugin-yaml';
 export default defineConfig({
   site: 'https://kryspinziemski.info',
   integrations: [tailwind()],
-  outDir: './docs',
   vite: {
     plugins:[yaml()],
     ssr: {
