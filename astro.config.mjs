@@ -6,7 +6,7 @@ import yaml from '@rollup/plugin-yaml';
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  outdir: './docs',
+  outDir: './docs',
   vite: {
     plugins:[yaml()],
     ssr: {
