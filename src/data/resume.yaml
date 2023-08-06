@@ -229,8 +229,8 @@ work:
       - "“Chat-Bots” could simulate a conversational dialogue with customers about products they wished to purchase."
       - "Developed Prototype, Developed/Managed redesign to final product. (IIS/ASP, Linux Apache, C++, CORBA, PERL, Smalltalk)"
 projects:
-  - name: "Luna: A Conversational NLP/AI Agent"
-    company: SOLILOQUY INC
+  - company: SOLILOQUY INC
+    name: "Luna: A Conversational NLP/AI Agent"
     description: "Created a conversational (Pre-LLM) NLP/AI agent that could simulate a dialogue with a customer about products they wished to purchase."
     keywords:
       - "Natural Language Processing"
@@ -251,9 +251,39 @@ projects:
       - "Used Goal Stacking mechanism to direct the conversation towards a sale."
       - "Used dynamic triggers to build new conversation branches"
       - "Created a reconciler to mesh the responses from the NLP engine with the conversation model."
-  
-  - name: Unifed Hedge Fund Infrastructure
-    company: LAUREL RIDGE ASSET MANAGEMENT
+  - company: LAUREL RIDGE ASSET MANAGEMENT
+    name: Security Master
+    description: "Developed a security master as a single-source of truth listed and OTC reference data sourced from Bloomberg Data."
+    keywords:
+      - "Bloomberg Data"
+      - "MSSQL"
+      - "C#"
+      - "Golden Source"
+    highlights:
+      - "Used Bloomberg Data API to source data and MSSQL to store it."
+      - "Total Universe of 1.5 million instruments with 100,000 updates per day."
+      - Staggered schedule for updating non-traded instruments to bring load to the Bloomberg API under risk of being throttled.
+      - Full tracking of Corporate Actions, Splits and Dividends and their effects on the portfolio.
+      - Complete Option Chains for all Equities, Futures and their Derivatives.
+      - "Used C# to build a web service to expose the data to other applications."
+  - company: LAUREL RIDGE ASSET MANAGEMENT
+    name: Investment Book of Record (IBOR)
+    description: "Developed a Bi-Temporal IBOR to track positions  down to the TaxLot level and generate P&L/Reporting for the fund in Trading, Accounting, Risk, IR contexts"
+    keywords:
+      - "MSSQL"
+      - "C#"
+      - "Bi-Temporal"
+      - "Microsoft Reporting Services"
+    highlights:
+      - Bi-Temporality allowed for Reporting to be generated both in System Time and "As Of" Time and to show adjustment reports between the two.
+      - MSSQL and  Reporting Services functions were developed to extend/generate non-trivial aggregation and calculations.
+      - T-0 P/L was generated/snapped 20 minutes after NYC, London and Tokyo close.
+      - Automatic Reconcilation overnight and T+1/pl was generated before the start of the next trading day in Tokyo.
+      - Tri-Party Reconcilation with Prime Brokers, Fund Administrator and our own IBOR.
+      - Bi-Temporal IBOR allowed us to close monthly books in 2 days.
+      - Novel hierarchy for holdings allowed for numerous pivots/views/reporting contexts.
+  - company: LAUREL RIDGE ASSET MANAGEMENT
+    name: Unifed Hedge Fund Infrastructure
     description: "Built a complete trading/risk infrastructure front-to-back office and in-house applications under a unified framework."
     keywords:
       - "C#"
@@ -300,12 +330,43 @@ projects:
       - In-house Accounting System to create true TaxLot accounting P&L and NAV at EOD.
       - Directory/Email/File/Database/Blackberry including branch office for backup/disaster recovery outside of NYC Disaster Zone.
       - Successfully Managed/Recovered from North East Blackout of 2003.
-  - name: Update Frames
+  - company: LAUREL RIDGE ASSET MANAGEMENT
+    name: Update Frames
     description: A compute/messaging framework to multicast distribute/display updates to portfolios/positions that were true and consistent when displayed.
     highlights:
-      - ""
+      - Live Calculations of Positions P&L, Risk, Performance, Attributions were multicast distributed to all users.
+      - Updates that were sent were given a frame context that allowed for a consistent view given the visual context of the end user despite a single centralized calculation and uniform distribution.
+      - Visual context was aware of dependencies between positions and their constituents and would update the display accordingly.
+      - Larger visual context may have updated relatively slower to smaller visual context but would maintain consistency of the view.
+      - Algorithms
 
-
+  - company: FORTRESS INVESTMENT Group
+    name: RiskBurgers
+    description: A Portable Alpha System for generating instructions for monthly/weekly rebalanced portfolios derived from signals by external managers.
+    keywords:
+      - "C#"
+      - "C++"
+      - "Java"
+      - "MSSQL"
+      - "Broker APIs"
+      - "FinCAD"
+      - "Riskmetrics RML"
+      - "Quantifi"
+      - "HOLT"
+      - "Infragistics"
+      - "Derivatives"
+      - "Equities"
+      - "Options"
+      - "Futures"
+      - "Bonds"
+      - "Loans"
+      - "OTC"
+      - "Convertible Bonds"
+      - "Prime Brokerage"
+      - "Fund Administration"
+      - "Risk Management"
+      - "Order Management"
+      - "Security Master"
 
 
 education:
