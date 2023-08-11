@@ -1,6 +1,6 @@
 ---
-import Download from '../components/Download.astro';
-import '../styles/styles.css';
+import Download from "../components/Download.astro";
+import "../styles/styles.css";
 
 type Props = {
   frontmatter: {
@@ -14,7 +14,7 @@ type Props = {
 const { title, pdfLink, noIndex, description } = Astro.props.frontmatter;
 
 const initials = title
-  .split(' ')
+  .split(" ")
   .map((word) => word[0].toUpperCase())
   .slice(0, 2);
 ---
@@ -29,9 +29,9 @@ const initials = title
     <meta name="description" content={description || title} />
     {noIndex && <meta name="robots" content="noindex" />}
     <title>{title}</title>
-    <slot name='head'/>
+    <slot name="head" />
   </head>
-  <body class="my-0 sm:my-14">
+  <body class="w-full">
     <div class="container mx-auto flex justify-center">
       <article class="minimalist relative">
         <div
