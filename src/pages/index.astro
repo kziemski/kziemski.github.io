@@ -9,7 +9,7 @@ import slug from 'limax';
 import {format} from 'date-fns'; 
 const title = "Kryspin Ziemski - Resume";
 const description = "Resume for Kryspin Ziemski";
-const pdfLink = "resume.pdf";
+const pdfLink = "/resume.pdf";
 const resume = "../data/resume.json";
 type Resume = z.infer<typeof schema>;
 const resume_obj: Resume = schema.parse(yml);
