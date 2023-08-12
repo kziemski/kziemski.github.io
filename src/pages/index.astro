@@ -16,7 +16,7 @@ const resume_obj: Resume = schema.parse(yml);
 const formatDate = (date: string | undefined) => {
   try {
     if(!date) return 'Present';
-    if(typeof date === 'number') return date;
+    if(typeof date === 'number' || (typeof date === 'string' && date.length === 4 )) return date;
     return format(new Date(date), 'MMMM yyyy');
   }catch(e) {
     return date;
