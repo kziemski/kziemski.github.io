@@ -470,7 +470,57 @@ projects:
       - MSSQL
       - Sungard
       - Time Series Database
-
+  - entity: FORTRESS INVESTMENT GROUP, Drawbridge Global Macro
+    name: Fortress Commodities Fund Launch
+    description: Brought a sister fund online from scratch while onsite at the Fortress London Office.
+    highlights:
+      - Rebuilt environment for the new fund from printouts, excel files of the old fund.
+      - FrontEnd was built in WPF, backend was built in C#.
+      - Rebuilt algorithms from scratch in C#.
+      - Rebuilt FIX trading connectivity to multiple brokers
+      - Rebuilt Time Series Database and sourced data for weather, energy, metals, agriculture, softs from Bloomberg and Tufts.
+      - Fund was brought live 3 weeks ahead of schedule.
+    keywords:
+      - WPF
+      - C#
+      - Bloomberg
+      - Tufts
+      - Weather
+      - Energy
+      - FIX
+      - Commodities
+      - Options
+  - entity: FORTRESS INVESTMENT GROUP, Drawbridge Global Macro
+    name: PLStreams
+    description: A RealTime P&L service connected to Fund Adminstrators Backend meant to bypass the Fund Administrators nightly process.
+    highlights:
+      - Built a RealTime P&L service in C# that was connected to the Fund Administrators backend.
+      - Fund Administrator Software Aexeo was not able to provide RealTime P&L and could not be rebuilt to accomodate Load.
+      - Reverse Engineered direct access to the Sybase(?) database and fund administrators account p&l calculations.
+      - Was able to provide EOD p&L instantly once operations was able to book all transcations and marks.
+      - Incorporated into Fund's reporting system.
+    keywords:
+      - C#
+      - SQL
+      - Accounting
+      - P&L
+  - entity: FORTRESS INVESTMENT GROUP, Drawbridge Global Macro
+    name: Fortress Privates
+    description: An integrated system for managing private investments within the firm.
+    highlights:
+      - Built a system to manage private investments within the firm.
+      - System was built in C#/Sharepoint and used MSSQL as a backend.
+      - System allowed for the creation of new private investments, tracking of capital calls, distributions, and valuations.
+      - System incorporated both research, operations and portfolio management into the same frontend.
+      - Sharepoint Widgets were used to build a dashboard for each private investment and effect transctions on the private investment.
+    keywords:
+      - C#
+      - Sharepoint
+      - MSSQL
+      - Private Investments
+      - Capital Calls
+      - Distributions
+      - Valuations
 education:
   - institution: SUNY, Stony Brook
     location: Stony Brook, NY
