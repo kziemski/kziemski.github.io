@@ -176,7 +176,7 @@ work:
       - Build-out Infrastructure, Trading Floor, Risk, Accounting for MBS/Credit Hedge Fund (IPC, Avaya, HP, Advent Geneva, Quantifi, VMware…)
       - Build-out Risk Monitoring, Trading, and Exchange Connectivity for LatAm Prop Trading Desk (C++, C#, FIX/FAST, WPF, ZeroMQ, ICE, low latency)
       - Build-out/Integration for a Macro/MBS fund's Portfolio, Accounting and Risk Reporting systems (SSRS, Geneva, Bloomberg AIM, Imagine IFP, C#…)
-      - Built Front office visualization tools for quantitative L/S Fund (time series analysis, Numerics, BBG Server API, TreeMap, “Spider” Node Graph, Tufte, “Tagging”, C#)
+      - Built Front office visualization tools for quantitative L/S Fund (time series analysis, Numerix, BBG Server API, TreeMap, “Spider” Node Graph, Tufte, “Tagging”, C#)
       - Rebuilt a systematic trading strategy prototyped in Excel/VBA for a quantitative fund (Deltix, R, ExcelDNA, FIX, XLL, C#, NoSQL, MongoDB)
       - Automating news/event-based strategies, real-time mirroring of human based trading with automated hedging (GS/Redi, FIX, .Net, Web scraping, Twitter)
       - On-Boarding Analysis created tool to analyze incoming PM teams - return/factor analysis, Portfolio/Risk statistics. (C#, ASP.NET)
@@ -199,7 +199,7 @@ work:
       - Maintained reports for Advent Geneva. Developed WFM workflow for import into warehouse (.Net, RSL, SSIS, WFM …)
       - Managed outsourced IT infrastructure with InfoHedge service provider.
   - name: GALLE GLOBAL MACRO PARTNERS
-    position: Head of Technology/Developer Lead ($450m macro fund - futures, options, FX, IRS, swaptions, CDS)
+    position: CTO ($450m macro fund - futures, options, FX, IRS, swaptions, CDS)
     location: NY, NY
     startDate: "2009"
     endDate: "2011"
@@ -527,10 +527,82 @@ projects:
     highlights:
       - Built a system to manage private equity and real estate investments within within the PE group.
   - entity: BELLPOINT CAPITAL
-    name: Unified Analysis/Reporting System
+    name: BPCL - Unified Analysis/Reporting System
     description: A reporting system aggregating Trading, Portfolio, Risk and IR data into a single reporting platform.
-    highlights:
+    keywords:
       - C# 
+      - WPF
+      - SSRS
+      - Bond ETFs
+      - Geneva Accounting System
+      - Peformance Attribution
+    highlights:
+      - Built a reporting system aggregating Trading, Portfolio, Risk and IR data into a single reporting platform.
+      - System was built in C# and used MSSQL as a backend.
+      - Built STP between Ominium (Citadel Fund Administrator), AIM and Geneva Accounting System.
+      - Built a Driver around Geneva Accounting System and the AGA to automate BackOffice and Nightly Reporting.
+      - Built PL/Performance Attribution on Junior PM's in order to identitfy and rellocate optimal allocation of capital / Year End Compenstation.
+  - entity: BELLPOINT CAPITAL
+    name: BPCL HY/IG Bond/ETF Analayis
+    description: A series of Tactical Applications to complement the trading/allocation style of the Portfolio Manager.
+    keyworks:
+      - HY Bond ETFs
+      - IG Bond ETFs
+      - Bloomberg
+      - WPF
+      - C#
+    highlights:
+      - BondETFReport, BondUniverseScreener, GSpreadHistory SpreadInversion were all built in C#/WPF and used Bloomberg API as a backend.
+  - entity: BELLPOINT CAPITAL
+    name: SquawkBox TradeReporter
+    description: Text to Speech Trade Reporting System for Accessibility  Purposes
+    keywords:
+      - C#
+      - WPF
+      - Accessibility
+      - Bloomberg
+    highlights:
+      - Portfolio Manager had visual impairment and needed a system to read out trades to him.
+      - Built a system that would read out trades to the Portfolio Manager as they were executed.
+      - Responded to Voice Commands and to programmed input interface to give hime realtime trade/portfolio/risk updates.
+  - entity: GALLE GLOBAL MACRO PARTNERS
+    name: Macro Trading/Risk/Portfolio Management System
+    description: A complete trading/risk infrastructure, STP, front-to-back office and in-house applications under a unified framework.
+    highlights:
+      - Combined hosted FrontArena with in-house applications to create a unified trading/risk infrastructure able to accomodate the full breadth of Liquid Macro Trading and OTC Credit/FX/IR Derivatives.
+      - Built a full risk management system to monitor the risk of the portfolio.
+      - Built inhouse library of Dervivaives Pricing Models to price all instrument in the fund's universe incorporating advanced models including SABR.
+      - Integrated MarkitServ/DSMatch for IR/Credit straight through processing.
+      - Integrated Bloomberg VCON/FIX for FX straight through processing.
+      - Integrated Traiana Harmony to process FX trades.
+      - C#/WPF/XLL were used to build a front end for the trading desk.
+      - Built  AEF Arena Extension Framework in C++/Python to extend FrontArena's functionality and incporporate proprietary pricers and analytics.
+    keywords:
+      - C#
+      - C++
+      - Python
+      - WPF
+      - XLL
+      - FrontArena
+      - Sungard
+      - MarkitServ
+      - DSMatch
+      - Traiana Harmony
+      - Bloomberg
+      - VCON
+      - FIX
+      - Derivatives
+  - entity: GALLE GLOBAL MACRO PARTNERS
+    name: GGMP Fund Launch
+    description: Was instrumental in Fund Launch from scratch, fundraising and ops due diligence.
+    highlights:
+      - Key Portfolio Managers were under garden leave while fund was being stood up.
+      - Used Best Practices to build out the infrastructure for the fund.
+      - Scouted Office Space on behalf of the Portfolio Manager.
+      - Interfaced with to evaluate and help select Fund Administrator, Prime Broker, Custodian, Auditor, Legal Counsel, IT Service Provider.
+      - Automated filling AIMA Questionaires, DDQs, RFPs for initial selection of Allocators for the upcoming Fund Launch
+      - Supported Marketing profession with CRM (Backstop), IR and Fund Launch Deck.
+      - Built out the infrastructure for the fund including Directory/Email/File/Database/Blackberry including branch office for backup/disaster recovery outside of NYC Disaster Zone.
 
 education:
   - institution: SUNY, Stony Brook
