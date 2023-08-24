@@ -115,6 +115,17 @@ skills:
       - Tableau
 
 work:
+  - name: QCOMPUTE LLC
+    position: Owner (Notable Projects consulting for various Fintech/Capital Markets)
+    location: Tri-State
+    startDate: "2017"
+    highlights:
+      - Built Consumer credit monitoring service focus on early detection as a React PWA (AWS React Stripe Node Serverless Python)
+      - Built Scalable Credit Reporting Data Validation/Enrichment Service (AWS React Stripe Docker Containers Serverless Node Python QuickSight)
+      - Built POC invoice financing platform for food services/fintech financing startup (AWS React Node Python Rekognition D3 Syncfusion Diagramming LoanPro)
+      - Evaluated, Architected Solutions for asset securitization of consumer loan portfolios (LoanPro, AWS, WebBank, Cross-River, ABS, SPV Financing)
+      - Evaluated, Implemented, Deployed Loan Management/Servicing into fintech startup's infrastructure (LoanPro, AWS, Credit Scoring, GBM, Machine Learning)
+      - Built Consumer Loan Application Web Application for machine learning fintech startup (React, Node, AWS, Serverless, LoanPro, Plaid, Python, Keras)
   - name: DYNAMO FUND
     position: CTO (Startup Hedge Fund - systematic macro)
     location: New York, NY/Greenwich, CT
@@ -127,17 +138,6 @@ work:
       - Built/Run reconciliation of trades/cash in multi-currency portfolio (Python, Pandas, …)
       - Built out risk reporting for internal and reporting purposes (Python, Pandas, …)
       - Contributed to the marketing deck (Reveal.JS, React, …)
-  - name: QCOMPUTE LLC
-    position: Owner (Notable Projects consulting for various Fintech/Capital Markets)
-    location: Tri-State
-    startDate: "2017"
-    highlights:
-      - Built Consumer credit monitoring service focus on early detection as a React PWA (AWS React Stripe Node Serverless Python)
-      - Built Scalable Credit Reporting Data Validation/Enrichment Service (AWS React Stripe Docker Containers Serverless Node Python QuickSight)
-      - Built POC invoice financing platform for food services/fintech financing startup (AWS React Node Python Rekognition D3 Syncfusion Diagramming LoanPro)
-      - Evaluated, Architected Solutions for asset securitization of consumer loan portfolios (LoanPro, AWS, WebBank, Cross-River, ABS, SPV Financing)
-      - Evaluated, Implemented, Deployed Loan Management/Servicing into fintech startup's infrastructure (LoanPro, AWS, Credit Scoring, GBM, Machine Learning)
-      - Built Consumer Loan Application Web Application for machine learning fintech startup (React, Node, AWS, Serverless, LoanPro, Plaid, Python, Keras)
   - name: CADENCE GROUP
     position: CTO (Seed series startup - retail investor platform for asset securitization of financing/private credit)
     location: New York, NY
@@ -156,22 +156,10 @@ work:
     position: Owner (Notable Projects consulting for various Hedge Funds/Prop Desks, Fintech)
     location: Stamford/Greenwich, CT
     startDate: "2008"
-    endDate: "2009"
-    highlights:
-      - Built Data Science environment to generate/analyze learning strategies on Macro-economic data (Pandas, Jupyter, Keras, web scraping, pipelining, workflow…)
-  - name: PARALLEL COMPUTATIONS
-    position: Owner (Notable Projects consulting for various Hedge Funds/Prop Desks, Fintech)
-    location: Stamford/Greenwich, CT
-    startDate: "2011"
-    endDate: "2011"
-    highlights:
-      - Designed/Prototyped workflow for fintech in securitizing consumer debt (Nortridge, Investran, Bloomberg, C#, xml processing …)
-  - name: PARALLEL COMPUTATIONS
-    position: Owner (Notable Projects consulting for various Hedge Funds/Prop Desks, Fintech)
-    location: Stamford/Greenwich, CT
-    startDate: "2012"
     endDate: "2017"
     highlights:
+      - Built Data Science environment to generate/analyze learning strategies on Macro-economic data (Pandas, Jupyter, Keras, web scraping, pipelining, workflow…)
+      - Designed/Prototyped workflow for fintech in securitizing consumer debt (Nortridge, Investran, Bloomberg, C#, xml processing …)
       - Built Portfolio Back-Testing Engine for manager selection/on-boarding (Agent Design, Jupyter, Pandas, HDF5, Concepts from “Portable-Alpha”, Risk selection theory…)
       - Build-out Infrastructure, Trading Floor, Risk, Accounting for MBS/Credit Hedge Fund (IPC, Avaya, HP, Advent Geneva, Quantifi, VMware…)
       - Build-out Risk Monitoring, Trading, and Exchange Connectivity for LatAm Prop Trading Desk (C++, C#, FIX/FAST, WPF, ZeroMQ, ICE, low latency)
@@ -185,19 +173,6 @@ work:
       - Created custom trading solution using TT© API for Trading Group. (C#)
       - Integrated ITG's soft dollar commissions functionality. (C#, MSSQL)
       - Worked on several Tactical Projects using Calypso© Portfolio Management System and Paladyne© Security Master. (Java, C#, MSSQL)
-  - name: BELLPOINT CAPITAL
-    position: CTO ($500m credit fund - corp. bonds, high yield, CDS, futures, ETFs, options, loans)
-    location: NY, NY
-    startDate: "2011"
-    endDate: "2012"
-    highlights:
-      - Created unified analysis/reporting framework servicing - trading, PM, Risk, and Investor Relations (.Net, MSSQL, SSAS, MDX, OLAP, SSRS)
-      - Completed integration to Bloomberg OTC FIX connectivity for Fixed Income/VCON trading/operations (.Net, QuickFIX)
-      - Completed integration with Omnium/Northern Trust Fund Administrator for daily reporting purposes (.Net, MSSQL, SSIS, SSRS)
-      - Created reporting on High Yield ETF constituent Analysis for the front office. (.Net, BBG, IIS, ASP.NET)
-      - Created Risk reports for portfolio analysis and Investor reporting (.Net, BBG API, SSRS, SSAS, MDX, Fixed Income Analytics …)
-      - Maintained reports for Advent Geneva. Developed WFM workflow for import into warehouse (.Net, RSL, SSIS, WFM …)
-      - Managed outsourced IT infrastructure with InfoHedge service provider.
   - name: GALLE GLOBAL MACRO PARTNERS
     position: CTO ($450m macro fund - futures, options, FX, IRS, swaptions, CDS)
     location: NY, NY
@@ -213,6 +188,19 @@ work:
       - Created a Timeseries Database combining several data sources for rapid analysis in Excel and Matlab. (C#, XLL, MSSQL, OLAP)
       - Wrote proprietary portfolio/risk analysis tools and trade loaders for the Front Office. (QuickFIX, Broker APIs, C#/WPF, Syncfusion)
       - Developed replacements for legacy pricers written in Excel/VBA. (Numerix, CUDA, ISDA CDS, Quantlib, C++, C#, ExcelDNA)
+  - name: BELLPOINT CAPITAL
+    position: CTO ($500m credit fund - corp. bonds, high yield, CDS, futures, ETFs, options, loans)
+    location: NY, NY
+    startDate: "2011"
+    endDate: "2012"
+    highlights:
+      - Created unified analysis/reporting framework servicing - trading, PM, Risk, and Investor Relations (.Net, MSSQL, SSAS, MDX, OLAP, SSRS)
+      - Completed integration to Bloomberg OTC FIX connectivity for Fixed Income/VCON trading/operations (.Net, QuickFIX)
+      - Completed integration with Omnium/Northern Trust Fund Administrator for daily reporting purposes (.Net, MSSQL, SSIS, SSRS)
+      - Created reporting on High Yield ETF constituent Analysis for the front office. (.Net, BBG, IIS, ASP.NET)
+      - Created Risk reports for portfolio analysis and Investor reporting (.Net, BBG API, SSRS, SSAS, MDX, Fixed Income Analytics …)
+      - Maintained reports for Advent Geneva. Developed WFM workflow for import into warehouse (.Net, RSL, SSIS, WFM …)
+      - Managed outsourced IT infrastructure with InfoHedge service provider.
   - name: FORTRESS INVESTMENT GROUP, Drawbridge Global Macro
     position: Senior Systems Architect ($6bil multi-strat global fund - equities, options, futures, FX, corp. bonds, CDS, OTC, exotics)
     location: NY, NY
@@ -247,159 +235,95 @@ work:
       - Developed web-based automated sales agents utilizing AI/Natural Language Processing for client e-commerce websites
       - “Chat-Bots” could simulate a conversational dialogue with customers about products they wished to purchase.
       - Developed Prototype, Developed/Managed redesign to final product. (IIS/ASP, Linux Apache, C++, CORBA, PERL, Smalltalk)
-
 projects:
-  - entity: SOLILOQUY INC
-    name: Luna - A Conversational NLP/AI Agent
-    description: Created a conversational (Pre-LLM) NLP/AI agent that could simulate a dialogue with a customer about products they wished to purchase.
+  - entity: GALLE GLOBAL MACRO PARTNERS
+    name: Macro Trading/Risk/Portfolio Management System
+    description: A complete trading/risk infrastructure, STP, front-to-back office and in-house applications under a unified framework.
+    highlights:
+      - Combined hosted FrontArena with in-house applications to create a unified trading/risk infrastructure able to accomodate the full breadth of Liquid Macro Trading and OTC Credit/FX/IR Derivatives.
+      - Built a full risk management system to monitor the risk of the portfolio.
+      - Integrated MarkitServ/DSMatch for IR/Credit straight through processing.
+      - Integrated Bloomberg VCON/FIX for FX straight through processing.
+      - Integrated Traiana Harmony to process FX trades.
+      - C#/WPF/XLL were used to build a front end for the trading desk.
+      - Built  AEF Arena Extension Framework in C++/Python to extend FrontArena's functionality and incorporate 3rd party and in-house pricers.
+  - entity: GALLE GLOBAL MACRO PARTNERS
+    name: Senna/Prost Pricers
+    description: Proprietary OTC FX, IR, Credit Derivatives Pricers
+    highlights:
+      - Built inhouse library of Dervivaives Pricing Models to price all instrument in the fund's universe incorporating advanced models.
+      - Expanded on Work of Hagan and SABR to create a proprietary SABR model that was more stable and faster to converge.
+      - Built in C++/Python and exposed to C# via XLL.
+      - Built Mex binding for use cases in Matlab.
+      - Full integrated with Bloomberg and Broker sources for constituent inputs.
+      - Advanced interpolation for impl vol surfaces.
     keywords:
-      - Natural Language Processing
-      - Artificial Intelligence
-      - PoS Tagging
+      - C#
+      - C++
       - Python
-      - C++
-      - CORBA
-      - PERL
-      - IIS
-      - ASP
-      - Linux
-      - Apache
-    highlights:
-      - Developed Prototype, Developed/Managed redesign to final product.
-      - Built as a chatbot before the term was coined.
-      - Used PoS tagging to identify parts of speech and build a semantic model of the conversation.
-      - Used Goal Stacking mechanism to direct the conversation towards a sale.
-      - Used dynamic triggers to build new conversation branches
-      - Created a reconciler to mesh the responses from the NLP engine with the conversation model.
-  - entity: SOLILOQUY INC
-    name: Customer Feedback Analysis Platform
-    description: Developed a business intelligence platform tailored for companies to
-      monitor and gain insights from customer feedback. The platform provided a comprehensive
-      dashboard with various pivots, allowing businesses to dive deep into the feedback
-      data and extract meaningful analyses.
-    highlights:
-    - Delivered as a private website ensuring data confidentiality and security.
-    - Enabled monthly PDF exports, allowing businesses to share and discuss feedback
-      insights in a structured format.
-    - Offered custom analysis to clients as a premium service, adding an additional
-      layer of depth to the insights.
-    - Streamlined the feedback process, allowing businesses to quickly identify areas
-      of improvement based on customer feedback.
-    keywords:
-    - Business Intelligence
-    - Dashboard
-    - Customer Feedback
-    - Data Analysis
-    - Website
-    - PDF Exports
-  - entity: LAUREL RIDGE ASSET MANAGEMENT
-    name: Security Master
-    description: Developed a security master as a single-source of truth listed and OTC reference data sourced from Bloomberg Data.
-    keywords:
-      - Bloomberg Data
-      - MSSQL
-      - C#
-      - Golden Source
-    highlights:
-      - Used Bloomberg Data API to source data and MSSQL to store it.
-      - Total Universe of 1.5 million instruments with 100,000 updates per day.
-      - Staggered schedule for updating non-traded instruments to bring load to the Bloomberg API under risk of being throttled.
-      - Full tracking of Corporate Actions, Splits and Dividends and their effects on the portfolio.
-      - Complete Option Chains for all Equities, Futures and their Derivatives.
-      - Used C# to build a web service to expose the data to other applications.
-  - entity: LAUREL RIDGE ASSET MANAGEMENT
-    name: Investment Book of Record (IBOR)
-    description: Developed a Bi-Temporal IBOR to track positions  down to the TaxLot level and generate P&L/Reporting for the fund in Trading, Accounting, Risk, IR contexts
-    keywords:
-      - MSSQL
-      - C#
-      - Bi-Temporal
-      - Microsoft Reporting Services
-    highlights:
-      - Bi-Temporality allowed for Reporting to be generated both in System Time and As Of Time and to show adjustment reports between the two.
-      - MSSQL and  Reporting Services functions were developed to extend/generate non-trivial aggregation and calculations.
-      - T-0 P/L was generated/snapped 20 minutes after NYC, London and Tokyo close.
-      - Automatic Reconcilation overnight and T+1/pl was generated before the start of the next trading day in Tokyo.
-      - Tri-Party Reconcilation with Prime Brokers, Fund Administrator and our own IBOR.
-      - Bi-Temporal IBOR allowed us to close monthly books in 2 days.
-      - Novel hierarchy for holdings allowed for numerous pivots/views/reporting contexts.
-  - entity: LAUREL RIDGE ASSET MANAGEMENT
-    name: Unifed Hedge Fund Infrastructure
-    description: Built a complete trading/risk infrastructure front-to-back office and in-house applications under a unified framework.
-    keywords:
-      - C#
-      - C++
-      - WebSockets
-      - SignalR
       - WPF
-      - WinForms
-      - ITO33
-      - PGM
-      - Multicast
+      - XLL
+      - FrontArena
+      - Sungard
+      - MarkitServ
+      - DSMatch
+      - Traiana Harmony
+      - Bloomberg
+      - VCON
       - FIX
-      - REDI
-      - BBG DAPI
-      - MSSQL
-      - BBG Gateway
-      - C1/Infragistics
       - Derivatives
-      - Equities
-      - Options
-      - Futures
-      - Bonds
-      - Loans
-      - OTC
-      - Convertible Bonds
-      - Prime Brokerage
-      - Fund Administration
-      - Risk Management
-      - Order Management
-      - Security Master
+  - entity: GALLE GLOBAL MACRO PARTNERS
+    name: GGMP Fund Launch
+    description: Was instrumental in Fund Launch from scratch, fundraising and ops due diligence.
     highlights:
-      - Built while .NET had started off as Rotor.
-      - 3+ tier architecture with messaging built first using multicast/PGM and then later included WebSockets/SignalR.
-      - Bespoke Security Master taking advantage of unique access to Bloomberg Data.
-      - BSPHA A unique data model for the Investment Book of Record (IBOR) that offered a single source of truth for all data.
-      - A Bi-Temporal database to capture all changes to the portfolio and market data.
-      - Utilizing Developer Access to Bloomberg DAPI managed 1000+ active subscriptions to market data.
-      - Full Refresh of security master every week on staggered basis including Corporate Action Changes.
-      - Nighly Refresh of security master for all actively traded securities, their consituents, their dependencies and benchmarks/hedges.
-      - Full STP between execution brokers, 2 prime brokers and Fund Administrator.
-      - In-house Order management System with FIX connectivity to execution brokers.
-      - Leveraged BBG Appliance to enable FIX connectivity to REDI.
-      - Full Risk Attribution and Performance Reporting.
-      - In-house Accounting System to create true TaxLot accounting P&L and NAV at EOD.
-      - Directory/Email/File/Database/Blackberry including branch office for backup/disaster recovery outside of NYC Disaster Zone.
-      - Successfully Managed/Recovered from North East Blackout of 2003.
-  - entity: LAUREL RIDGE ASSET MANAGEMENT
-    name: Update Frames
-    description: A compute/messaging framework to multicast distribute/display updates to portfolios/positions that were true and consistent when displayed.
-    highlights:
-      - Live Calculations of Positions P&L, Risk, Performance, Attributions were multicast distributed to all users.
-      - Updates that were sent were given a frame context that allowed for a consistent view given the visual context of the end user despite a single centralized calculation and uniform distribution.
-      - Visual context was aware of dependencies between positions and their constituents and would update the display accordingly.
-      - Larger visual context may have updated relatively slower to smaller visual context but would maintain consistency of the view.
-  - entity: LAUREL RIDGE ASSET MANAGEMENT
-    name: Bespoke Instrument Pricer
-    description: Built a bespoke instrument pricer to price all instruments in the portfolio including OTC derivatives.
+      - Key Portfolio Managers were under garden leave while fund was being stood up.
+      - Used Best Practices to build out the infrastructure for the fund.
+      - Scouted Office Space on behalf of the Portfolio Manager.
+      - Interfaced with to evaluate and help select Fund Administrator, Prime Broker, Custodian, Auditor, Legal Counsel, IT Service Provider.
+      - Automated filling AIMA Questionaires, DDQs, RFPs for initial selection of Allocators for the upcoming Fund Launch
+      - Supported Marketing profession with CRM (Backstop), IR and Fund Launch Deck.
+      - Built out the infrastructure for the fund including Directory/Email/File/Database/Blackberry including branch office for backup/disaster recovery outside of NYC Disaster Zone.
+
+  - entity: BELLPOINT CAPITAL
+    name: BPCL - Unified Analysis/Reporting System
+    description: A reporting system aggregating Trading, Portfolio, Risk and IR data into a single reporting platform.
     keywords:
-      - C++
-      - Derivatives
-      - Equities
-      - ITO33
-      - Options
-      - Futures
-      - Bonds
-      - Loans
-      - OTC
-      - Convertible Bonds
+      - C# 
+      - WPF
+      - SSRS
+      - Bond ETFs
+      - Geneva Accounting System
+      - Peformance Attribution
     highlights:
-      - Used C++ to build a low level pricer library that could facilitate pricing all instruments in the portfolio including OTC derivatives.
-      - Used C# to build a web service to expose the pricer to other applications.
-      - Used C# to setup an instrument Model to allow for the pricer to be extended to new instruments.
-      - Every Traded Assest Class was modelled in a full instrument pricer before being traded (No Cramming of trades into a generic instrument).
-      - Convertible Bonds were modelled in ITO33 and extended in the pricer system.
-      - Parallized pricing of instruments to take advantage of multi-core processors.
+      - Built a reporting system aggregating Trading, Portfolio, Risk and IR data into a single reporting platform.
+      - System was built in C# and used MSSQL as a backend.
+      - Built STP between Ominium (Citadel Fund Administrator), AIM and Geneva Accounting System.
+      - Built a Driver around Geneva Accounting System and the AGA to automate BackOffice and Nightly Reporting.
+      - Built PL/Performance Attribution on Junior PM's in order to identitfy and rellocate optimal allocation of capital / Year End Compenstation.
+  - entity: BELLPOINT CAPITAL
+    name: BPCL HY/IG Bond/ETF Analayis
+    description: A series of Tactical Applications to complement the trading/allocation style of the Portfolio Manager.
+    keyworks:
+      - HY Bond ETFs
+      - IG Bond ETFs
+      - Bloomberg
+      - WPF
+      - C#
+    highlights:
+      - BondETFReport, BondUniverseScreener, GSpreadHistory SpreadInversion were all built in C#/WPF and used Bloomberg API as a backend.
+  - entity: BELLPOINT CAPITAL
+    name: SquawkBox TradeReporter
+    description: Text to Speech Trade Reporting System for Accessibility  Purposes
+    keywords:
+      - C#
+      - WPF
+      - Accessibility
+      - Bloomberg
+    highlights:
+      - Portfolio Manager had visual impairment and needed a system to read out trades to him.
+      - Built a system that would read out trades to the Portfolio Manager as they were executed.
+      - Responded to Voice Commands and to programmed input interface to give hime realtime trade/portfolio/risk updates.
+
   - entity: FORTRESS INVESTMENT GROUP, Drawbridge Global Macro
     name: RiskBurgers
     description: A Portable Alpha System for generating instructions for monthly/weekly rebalanced portfolios derived from signals by external managers.
@@ -526,83 +450,158 @@ projects:
     description: A system for managing private equity and real estate investments within the firm.
     highlights:
       - Built a system to manage private equity and real estate investments within within the PE group.
-  - entity: BELLPOINT CAPITAL
-    name: BPCL - Unified Analysis/Reporting System
-    description: A reporting system aggregating Trading, Portfolio, Risk and IR data into a single reporting platform.
+
+  - entity: LAUREL RIDGE ASSET MANAGEMENT
+    name: Security Master
+    description: Developed a security master as a single-source of truth listed and OTC reference data sourced from Bloomberg Data.
     keywords:
-      - C# 
-      - WPF
-      - SSRS
-      - Bond ETFs
-      - Geneva Accounting System
-      - Peformance Attribution
-    highlights:
-      - Built a reporting system aggregating Trading, Portfolio, Risk and IR data into a single reporting platform.
-      - System was built in C# and used MSSQL as a backend.
-      - Built STP between Ominium (Citadel Fund Administrator), AIM and Geneva Accounting System.
-      - Built a Driver around Geneva Accounting System and the AGA to automate BackOffice and Nightly Reporting.
-      - Built PL/Performance Attribution on Junior PM's in order to identitfy and rellocate optimal allocation of capital / Year End Compenstation.
-  - entity: BELLPOINT CAPITAL
-    name: BPCL HY/IG Bond/ETF Analayis
-    description: A series of Tactical Applications to complement the trading/allocation style of the Portfolio Manager.
-    keyworks:
-      - HY Bond ETFs
-      - IG Bond ETFs
-      - Bloomberg
-      - WPF
+      - Bloomberg Data
+      - MSSQL
       - C#
+      - Golden Source
     highlights:
-      - BondETFReport, BondUniverseScreener, GSpreadHistory SpreadInversion were all built in C#/WPF and used Bloomberg API as a backend.
-  - entity: BELLPOINT CAPITAL
-    name: SquawkBox TradeReporter
-    description: Text to Speech Trade Reporting System for Accessibility  Purposes
+      - Used Bloomberg Data API to source data and MSSQL to store it.
+      - Total Universe of 1.5 million instruments with 100,000 updates per day.
+      - Staggered schedule for updating non-traded instruments to bring load to the Bloomberg API under risk of being throttled.
+      - Full tracking of Corporate Actions, Splits and Dividends and their effects on the portfolio.
+      - Complete Option Chains for all Equities, Futures and their Derivatives.
+      - Used C# to build a web service to expose the data to other applications.
+  - entity: LAUREL RIDGE ASSET MANAGEMENT
+    name: Investment Book of Record (IBOR)
+    description: Developed a Bi-Temporal IBOR to track positions  down to the TaxLot level and generate P&L/Reporting for the fund in Trading, Accounting, Risk, IR contexts
     keywords:
+      - MSSQL
       - C#
-      - WPF
-      - Accessibility
-      - Bloomberg
+      - Bi-Temporal
+      - Microsoft Reporting Services
     highlights:
-      - Portfolio Manager had visual impairment and needed a system to read out trades to him.
-      - Built a system that would read out trades to the Portfolio Manager as they were executed.
-      - Responded to Voice Commands and to programmed input interface to give hime realtime trade/portfolio/risk updates.
-  - entity: GALLE GLOBAL MACRO PARTNERS
-    name: Macro Trading/Risk/Portfolio Management System
-    description: A complete trading/risk infrastructure, STP, front-to-back office and in-house applications under a unified framework.
-    highlights:
-      - Combined hosted FrontArena with in-house applications to create a unified trading/risk infrastructure able to accomodate the full breadth of Liquid Macro Trading and OTC Credit/FX/IR Derivatives.
-      - Built a full risk management system to monitor the risk of the portfolio.
-      - Built inhouse library of Dervivaives Pricing Models to price all instrument in the fund's universe incorporating advanced models including SABR.
-      - Integrated MarkitServ/DSMatch for IR/Credit straight through processing.
-      - Integrated Bloomberg VCON/FIX for FX straight through processing.
-      - Integrated Traiana Harmony to process FX trades.
-      - C#/WPF/XLL were used to build a front end for the trading desk.
-      - Built  AEF Arena Extension Framework in C++/Python to extend FrontArena's functionality and incporporate proprietary pricers and analytics.
+      - Bi-Temporality allowed for Reporting to be generated both in System Time and As Of Time and to show adjustment reports between the two.
+      - MSSQL and  Reporting Services functions were developed to extend/generate non-trivial aggregation and calculations.
+      - T-0 P/L was generated/snapped 20 minutes after NYC, London and Tokyo close.
+      - Automatic Reconcilation overnight and T+1/pl was generated before the start of the next trading day in Tokyo.
+      - Tri-Party Reconcilation with Prime Brokers, Fund Administrator and our own IBOR.
+      - Bi-Temporal IBOR allowed us to close monthly books in 2 days.
+      - Novel hierarchy for holdings allowed for numerous pivots/views/reporting contexts.
+  - entity: LAUREL RIDGE ASSET MANAGEMENT
+    name: Unifed Hedge Fund Infrastructure
+    description: Built a complete trading/risk infrastructure front-to-back office and in-house applications under a unified framework.
     keywords:
       - C#
       - C++
-      - Python
+      - WebSockets
+      - SignalR
       - WPF
-      - XLL
-      - FrontArena
-      - Sungard
-      - MarkitServ
-      - DSMatch
-      - Traiana Harmony
-      - Bloomberg
-      - VCON
+      - WinForms
+      - ITO33
+      - PGM
+      - Multicast
       - FIX
+      - REDI
+      - BBG DAPI
+      - MSSQL
+      - BBG Gateway
+      - C1/Infragistics
       - Derivatives
-  - entity: GALLE GLOBAL MACRO PARTNERS
-    name: GGMP Fund Launch
-    description: Was instrumental in Fund Launch from scratch, fundraising and ops due diligence.
+      - Equities
+      - Options
+      - Futures
+      - Bonds
+      - Loans
+      - OTC
+      - Convertible Bonds
+      - Prime Brokerage
+      - Fund Administration
+      - Risk Management
+      - Order Management
+      - Security Master
     highlights:
-      - Key Portfolio Managers were under garden leave while fund was being stood up.
-      - Used Best Practices to build out the infrastructure for the fund.
-      - Scouted Office Space on behalf of the Portfolio Manager.
-      - Interfaced with to evaluate and help select Fund Administrator, Prime Broker, Custodian, Auditor, Legal Counsel, IT Service Provider.
-      - Automated filling AIMA Questionaires, DDQs, RFPs for initial selection of Allocators for the upcoming Fund Launch
-      - Supported Marketing profession with CRM (Backstop), IR and Fund Launch Deck.
-      - Built out the infrastructure for the fund including Directory/Email/File/Database/Blackberry including branch office for backup/disaster recovery outside of NYC Disaster Zone.
+      - Built while .NET had started off as Rotor.
+      - 3+ tier architecture with messaging built first using multicast/PGM and then later included WebSockets/SignalR.
+      - Bespoke Security Master taking advantage of unique access to Bloomberg Data.
+      - BSPHA A unique data model for the Investment Book of Record (IBOR) that offered a single source of truth for all data.
+      - A Bi-Temporal database to capture all changes to the portfolio and market data.
+      - Utilizing Developer Access to Bloomberg DAPI managed 1000+ active subscriptions to market data.
+      - Full Refresh of security master every week on staggered basis including Corporate Action Changes.
+      - Nighly Refresh of security master for all actively traded securities, their consituents, their dependencies and benchmarks/hedges.
+      - Full STP between execution brokers, 2 prime brokers and Fund Administrator.
+      - In-house Order management System with FIX connectivity to execution brokers.
+      - Leveraged BBG Appliance to enable FIX connectivity to REDI.
+      - Full Risk Attribution and Performance Reporting.
+      - In-house Accounting System to create true TaxLot accounting P&L and NAV at EOD.
+      - Directory/Email/File/Database/Blackberry including branch office for backup/disaster recovery outside of NYC Disaster Zone.
+      - Successfully Managed/Recovered from North East Blackout of 2003.
+  - entity: LAUREL RIDGE ASSET MANAGEMENT
+    name: Update Frames
+    description: A compute/messaging framework to multicast distribute/display updates to portfolios/positions that were true and consistent when displayed.
+    highlights:
+      - Live Calculations of Positions P&L, Risk, Performance, Attributions were multicast distributed to all users.
+      - Updates that were sent were given a frame context that allowed for a consistent view given the visual context of the end user despite a single centralized calculation and uniform distribution.
+      - Visual context was aware of dependencies between positions and their constituents and would update the display accordingly.
+      - Larger visual context may have updated relatively slower to smaller visual context but would maintain consistency of the view.
+  - entity: LAUREL RIDGE ASSET MANAGEMENT
+    name: Bespoke Instrument Pricer
+    description: Built a bespoke instrument pricer to price all instruments in the portfolio including OTC derivatives.
+    keywords:
+      - C++
+      - Derivatives
+      - Equities
+      - ITO33
+      - Options
+      - Futures
+      - Bonds
+      - Loans
+      - OTC
+      - Convertible Bonds
+    highlights:
+      - Used C++ to build a low level pricer library that could facilitate pricing all instruments in the portfolio including OTC derivatives.
+      - Used C# to build a web service to expose the pricer to other applications.
+      - Used C# to setup an instrument Model to allow for the pricer to be extended to new instruments.
+      - Every Traded Assest Class was modelled in a full instrument pricer before being traded (No Cramming of trades into a generic instrument).
+      - Convertible Bonds were modelled in ITO33 and extended in the pricer system.
+      - Parallized pricing of instruments to take advantage of multi-core processors.
+  - entity: SOLILOQUY INC
+    name: Luna - A Conversational NLP/AI Agent
+    description: Created a conversational (Pre-LLM) NLP/AI agent that could simulate a dialogue with a customer about products they wished to purchase.
+    keywords:
+      - Natural Language Processing
+      - Artificial Intelligence
+      - PoS Tagging
+      - Python
+      - C++
+      - CORBA
+      - PERL
+      - IIS
+      - ASP
+      - Linux
+      - Apache
+    highlights:
+      - Developed Prototype, Developed/Managed redesign to final product.
+      - Built as a chatbot before the term was coined.
+      - Used PoS tagging to identify parts of speech and build a semantic model of the conversation.
+      - Used Goal Stacking mechanism to direct the conversation towards a sale.
+      - Used dynamic triggers to build new conversation branches
+      - Created a reconciler to mesh the responses from the NLP engine with the conversation model.
+  - entity: SOLILOQUY INC
+    name: Customer Feedback Analysis Platform
+    description: Developed a business intelligence platform tailored for companies to
+      monitor and gain insights from customer feedback. The platform provided a comprehensive
+      dashboard with various pivots, allowing businesses to dive deep into the feedback
+      data and extract meaningful analyses.
+    highlights:
+    - Delivered as a private website ensuring data confidentiality and security.
+    - Enabled monthly PDF exports, allowing businesses to share and discuss feedback
+      insights in a structured format.
+    - Offered custom analysis to clients as a premium service, adding an additional
+      layer of depth to the insights.
+    - Streamlined the feedback process, allowing businesses to quickly identify areas
+      of improvement based on customer feedback.
+    keywords:
+    - Business Intelligence
+    - Dashboard
+    - Customer Feedback
+    - Data Analysis
+    - Website
+    - PDF Exports
 
 education:
   - institution: SUNY, Stony Brook
