@@ -3,7 +3,8 @@ basics:
   email: kziemski@gmail.com
   phone: +1(646) 345-4567
   website: "http://kryspinziemski.info/resume.pdf"
-  summary: Complete Technologist (Infrastructure/Developer/Trading Systems) with a wide skillset and financial knowledge able to provide front to back solutions for financial firms. 
+  summary:
+    Complete Technologist (Infrastructure/Developer/Trading Systems) with a wide skillset and financial knowledge able to provide front to back solutions for financial firms.
     Possessing a “Self-starter” mentality with a proven track record in taking funds from startup to a fully operational phase.
 
 skills:
@@ -34,7 +35,7 @@ skills:
       - FXAll
       - Intex
       - Calypso
-      - TradeWeb      
+      - TradeWeb
       - Murex
       - Quantifi
       - FinCAD
@@ -130,7 +131,7 @@ work:
     position: CTO (Startup Hedge Fund - systematic macro)
     location: New York, NY/Greenwich, CT
     startDate: "2020"
-    endDate: '2023-06-01'
+    endDate: "2023-06-01"
     highlights:
       - Helped bootstrap fund during covid pandemic heavily utilizing cloud technologies and remote deployment of technologies (AWS Microsoft, Intel NUC, …)
       - Built out trading connectivity via Bloomberg EMSX to over 20 exchanges (Python, Bloomberg EMSX/Desktop API, ngrok, React, AWS, …)
@@ -236,6 +237,191 @@ work:
       - “Chat-Bots” could simulate a conversational dialogue with customers about products they wished to purchase.
       - Developed Prototype, Developed/Managed redesign to final product. (IIS/ASP, Linux Apache, C++, CORBA, PERL, Smalltalk)
 projects:
+  - entity: QCOMPUTE LLC
+    name: Credit Monitor App for a fintech firm
+    description: Developed a consumer-centric credit monitoring application focused on early detection and proactive management.
+    highlights:
+      - Built a consumer credit monitoring service with a focus on early detection, leveraging React PWA for a seamless user experience (AWS React Stripe Node Serverless Python).
+      - Ensured real-time updates and alerts to users, allowing them to take proactive measures in managing their credit.
+
+  - entity: QCOMPUTE LLC
+    name: Metro2 Reporting Portal for a credit reporting agency
+    description: Designed a robust credit reporting data validation and enrichment portal, ensuring accurate and comprehensive credit reports.
+    highlights:
+      - Constructed a scalable credit reporting data validation/enrichment service, ensuring data integrity and accuracy (AWS React Stripe Docker Containers Serverless Node Python QuickSight).
+
+  - entity: QCOMPUTE LLC
+    name: PO-Financing App for a fintech firm
+    description: Pioneered an invoice financing platform tailored for the food services sector, streamlining financial operations for startups.
+    highlights:
+      - Developed a POC invoice financing platform catering to the unique needs of the food services sector and fintech financing startups (AWS React Node Python Rekognition D3 Syncfusion Diagramming LoanPro).
+
+  - entity: QCOMPUTE LLC
+    name: AIM - Consumer Loan Securitization for a capital markets firm
+    description: Architected and evaluated solutions for the securitization of consumer loan portfolios, optimizing asset-backed securities.
+    highlights:
+      - Evaluated and architected solutions for asset securitization of consumer loan portfolios, integrating with platforms like LoanPro, AWS, WebBank, and Cross-River.
+
+  - entity: QCOMPUTE LLC
+    name: ML Credit Decisioning/Policy Engine for a fintech startup
+    description: Implemented a cutting-edge loan management and servicing solution, integrating machine learning for enhanced credit decisioning.
+    highlights:
+      - Evaluated, implemented, and deployed a loan management/servicing solution into the fintech startup's infrastructure, leveraging technologies like LoanPro, AWS, and machine learning for credit scoring.
+      - Built a consumer loan application web application, integrating machine learning for dynamic credit decisioning (React, Node, AWS, Serverless, LoanPro, Plaid, Python, Keras).
+
+  - entity: DYNAMO FUND
+    name: Expedited Fund Launch during COVID
+    description: Spearheaded the rapid launch of the fund amidst the COVID pandemic, leveraging advanced cloud technologies and remote deployment strategies.
+    highlights:
+      - Bootstrapped the fund during the COVID pandemic, heavily utilizing cloud technologies for agility and efficiency (AWS, Microsoft, Intel NUC).
+      - Contributed to the marketing deck to attract investors and stakeholders (Reveal.JS, React).
+
+  - entity: DYNAMO FUND
+    name: Unified Trading Connectivity
+    description: Established a robust trading connectivity framework via Bloomberg EMSX, ensuring scalability to accommodate multiple trading partners.
+    highlights:
+      - Built out trading connectivity via Bloomberg EMSX, linking to over 20 exchanges (Python, Bloomberg EMSX/Desktop API, ngrok, React, AWS).
+      - Ensured seamless overnight trading and rebalancing for various trading strategies (Python, Pandas, EMSX/Desktop API).
+
+  - entity: DYNAMO FUND
+    name: Automated Trading Basket Solution
+    description: Developed and managed an automated trading basket solution, optimizing portfolio management processes and ensuring accurate exception handling.
+    highlights:
+      - Automated the reconciliation of trades and cash in a multi-currency portfolio, ensuring accuracy and efficiency (Python, Pandas).
+      - Built out comprehensive risk reporting tools for both internal analysis and external reporting (Python, Pandas).
+
+  - entity: DYNAMO FUND
+    name: Remote Agent for Bloomberg Terminal
+    description: Innovated a remote agent solution using reverse SSH tunnels, maximizing the utility of a single Bloomberg terminal across various applications.
+    highlights:
+      - Designed and implemented a remote agent via reverse SSH tunnels, allowing for versatile use of a single Bloomberg terminal for trading, EOD, and risk applications.
+
+  - entity: DYNAMO FUND
+    name: Automated Fund Investor Presentations
+    description: Revolutionized investor presentations by automating their creation and ensuring they are dynamic, interactive, and engaging.
+    highlights:
+      - Played a pivotal role in enhancing the marketing deck, leveraging technologies like Reveal.JS and React to create interactive presentations.
+
+  - entity: CADENCE GROUP
+    name: Whole Business Securitization Channel
+    description: Pioneered the expansion of deal types to encompass whole business securitization.
+    highlights:
+      - Introduced functionality to support a new deal type - Whole Business Securitization, diversifying the platform's offerings.
+      - Successfully closed a significant deal, securing $40 Million for FAT Brands, showcasing the platform's capability and reach.
+      - Demonstrated a successful use case by tracking payments on-chain, addressing traditional finance challenges where payments were difficult to track and often subject to inaccuracies.
+
+  - entity: CADENCE GROUP
+    name: Cadence Private Credit Explorer
+    description: Developed Cadence's custom application for Bloomberg's "App Portal", allowing terminal users to seamlessly add and view offerings.
+    highlights:
+      - Built Cadence Private Credit Explorer on Bloomberg App Portal, enhancing visibility and accessibility for Bloomberg terminal users.
+      - Integrated with Bloomberg Data and FIGI to ensure accurate and up-to-date offerings are displayed.
+      - Utilized technologies like React and AWS GraphQL AppSync to ensure a responsive and intuitive user experience.
+
+  - entity: CADENCE GROUP
+    name: BaaS/Payments 2.0
+    description: Developed advanced solutions for the 2.0 roadmap, encompassing full banking capabilities and sophisticated money flow management.
+    highlights:
+      - Successfully implemented a UAT with Synapsefi, providing investors with genuine banking accounts associated with their profiles.
+      - Achieved a successful UAT implementation with Dwolla, enabling the automation of ACH and facilitating mass disbursement of interest payments efficiently.
+      - Integrated and deployed Plaid to link client bank account information, facilitating identity and asset checks crucial for KYC and Accreditation processes.
+
+  - entity: CADENCE GROUP
+    name: Segregated Client Accounts
+    description: Crafted a comprehensive back office solution to manage and automate investor funds throughout the lifecycle of each deal.
+    highlights:
+      - Seamlessly integrated Currency Cloud to establish Segregated Client Accounts, safeguarding individual investor funds.
+      - Introduced Virtual Account Numbers, offering unique identifiers for streamlined transactions and enhanced account management.
+      - Automated the flow of funds from client accounts to the issuer's master account and ensured timely principal and interest payments to investors upon deal maturity.
+      - Upheld best practices to ensure transparency and trust in all financial operations.
+
+  - entity: CADENCE GROUP
+    name: Accredited Investor Onboarding
+    description: Built a KYC solution to ensure compliance with onboarding Accredited Investors.
+    highlights:
+      - Integrated Onfido's KYC/AML solution directly into the investor onboarding process, ensuring a seamless user experience.
+      - Implemented advanced checks for government identification verification, enhancing the platform's security and trustworthiness.
+      - Incorporated OFAC/PEPS checks to ensure compliance with international regulations and prevent illicit activities.
+
+  - entity: CADENCE GROUP
+    name: Cadence Debt Token (CDGXX)
+    description: Developed a compliant ERC20 Debt Token seamlessly integrated and referenceable within the institutional capital markets ecosystem.
+    highlights:
+      - Developed the ERC20 Upgradable Contract for CDGXX, ensuring legal compliance and innovative design (Solidity, Ganache, web3js, ethers, Infura).
+      - Successfully listed CDGXX tokens on the Bloomberg Universe, marking it as one of the first DeFi tokens to achieve this milestone.
+      - CDGXX tokens were listed as Promissory Notes under the Bloomberg "M-Mkt Key", making them uniquely referenceable with a Security Identifier.
+      - The CDGXX token served as an early and successful example of the "Mirror"-Note concept, predating the popularization of "MirrorShares".
+
+  - entity: CADENCE GROUP
+    name: Cadence Investment Portal
+    description: Built a scalable Portal for Accredited High Net Worth investors to evaluate offers, invest in deals, and manage their investments.
+    highlights:
+      - Took over POC and architected/rebuilt as Flagship Product for launch in 6 months (Python Heroku Django postgres React Node AWS Lambda Serverless Plaid Onfido)
+      - Contributed to several key business decisions and partnerships (Bloomberg Data, FIGI, Bloomberg Enterprise Solutions App Portal, Smart Contracts Web3)
+      - Integral to operations and processing of cash and accounting for deals
+
+  - entity: PARALLEL COMPUTATIONS
+    name: Lending Securitization/asset management systems
+    description: Build out of securitization and asset management framework for consumer lending pipeline of fintech.
+    highlights:
+      - Designed/Prototyped workflow for fintech in securitizing consumer debt (Nortridge, Investran, Bloomberg, C#, xml processing …)
+      - Built Data Science environment to generate/analyze learning strategies on Macro-economic data (Pandas, Jupyter, Keras, web scraping, pipelining, workflow…)
+
+  - entity: PARALLEL COMPUTATIONS
+    name: Scale-Up of systems and physical build out for Successful MBS/Credit Fund
+    description: Worked as a sole contractor to build systems for Ex-GS CIO and manage the physical build out for a new trading floor for incoming teams.
+    highlights:
+      - Build-out Infrastructure, Trading Floor, Risk, Accounting for MBS/Credit Hedge Fund (IPC, Avaya, HP, Advent Geneva, Quantifi, VMware…)
+      - Built Portfolio Back-Testing Engine for manager selection/on-boarding (Agent Design, Jupyter, Pandas, HDF5, Concepts from “Portable-Alpha”, Risk selection theory…)
+
+  - entity: PARALLEL COMPUTATIONS
+    name: Green Field Launch of Latam  Prop Trading Desk inside Large Brazilian FI
+    description: Remote Contractor to build out ecosystem from a transplanted group in Sao Paulo.
+    highlights:
+      - Build-out Risk Monitoring, Trading, and Exchange Connectivity for LatAm Prop Trading Desk (C++, C#, FIX/FAST, WPF, ZeroMQ, ICE, low latency)
+
+  - entity: PARALLEL COMPUTATIONS
+    name: STP Integration/Reporting Solution for Macro/MBS Fund
+    description: FT Contractor to modernize a major Macro/MBS's fund risk/accounting/reporting infrastructure.
+    highlights:
+      - Build-out/Integration for a Macro/MBS fund's Portfolio, Accounting and Risk Reporting systems (SSRS, Geneva, Bloomberg AIM, Imagine IFP, C#…)
+
+  - entity: PARALLEL COMPUTATIONS
+    name: Shared Services Framework/Advisory for Emerging Manager Platform
+    description: In-House Built a common architecture/platform to service multiple hedge funds operating in a shared services/co working space.
+    highlights:
+      - Automating news/event-based strategies, real-time mirroring of human based trading with automated hedging (GS/Redi, FIX, .Net, Web scraping, Twitter)
+      - Rebuilt a systematic trading strategy prototyped in Excel/VBA for a quantitative fund (Deltix, R, ExcelDNA, FIX, XLL, C#, NoSQL, MongoDB)
+      - Built Front office visualization tools for quantitative L/S Fund (time series analysis, Numerix, BBG Server API, TreeMap, “Spider” Node Graph, Tufte, “Tagging”, C#)
+
+  - entity: PARALLEL COMPUTATIONS
+    name: Risk/Reporting/Trading Functionality for FI/Credit Group in Large Fund
+    description: In-House Contract for Overlay an Risk/Reporting framework on a Best in Class Front Office System.
+    highlights:
+      - On-Boarding Analysis created tool to analyze incoming PM teams - return/factor analysis, Portfolio/Risk statistics. (C#, ASP.NET)
+      - Built Risk Analysis/Reporting platform for a Fixed Income Risk group. (Reporting Services, SharePoint, C#, Custom FI Pricing Library)
+      - Extended risk functionality in SunGard's FrontArena© Portfolio Management system. (Python, C++, C#, ADFL, Sonic ESB)
+      - Created custom trading solution using TT© API for Trading Group. (C#)
+      - Integrated ITG's soft dollar commissions functionality. (C#, MSSQL)
+
+  - entity: PARALLEL COMPUTATIONS
+    name: Fund Build Out for >$1B Launch
+    description: Integration of Best in Class Systems, full STP and infrastructure build out for a new fund launch backed with a PE investment.
+    highlights:
+      - Integrated Calypso Portfolio Management System and Paladyne Security Master into a larger unified system for STP and reporting.
+      - Worked with the development team on building capacity to handle multiple sub funds and growth in sub managers/front office pods.
+      - Contribituted to a green field full risk management system to monitor the risk of the portfolio.
+      - Added to Performance Attribution for management in evaluating manager performance.
+      - Built reporting for ERISA compliance in order to accomodate the fund's largest allocators.
+    keywords:
+      - Calypso
+      - Paladyne
+      - Portfolio Management
+      - Security Master
+      - Risk Management
+      - Performance Attribution
+      - ERISA
+
   - entity: GALLE GLOBAL MACRO PARTNERS
     name: Macro Trading/Risk/Portfolio Management System
     description: A complete trading/risk infrastructure, STP, front-to-back office and in-house applications under a unified framework.
@@ -288,7 +474,7 @@ projects:
     name: BPCL - Unified Analysis/Reporting System
     description: A reporting system aggregating Trading, Portfolio, Risk and IR data into a single reporting platform.
     keywords:
-      - C# 
+      - C#
       - WPF
       - SSRS
       - Bond ETFs
@@ -363,22 +549,23 @@ projects:
       - System took losing External Signals and Faded them to create a winning portfolio (Some of the most Profitable).
   - entity: FORTRESS INVESTMENT GROUP, Drawbridge Global Macro
     name: Time Series Data Integration Platform
-    description: Developed a comprehensive time series database that integrated both 
-        real-time and historical data from multiple sources The solution was used firm-wide and provided data access
-        through various API endpoints and bindings.
+    description:
+      Developed a comprehensive time series database that integrated both
+      real-time and historical data from multiple sources The solution was used firm-wide and provided data access
+      through various API endpoints and bindings.
     highlights:
-    - Sources inclued Bloomberg Market/Reference Data, Sungard FAME Economic Time Series, Credit Suisse Holt Data, JPMorgan DQ, and Barclays BARX Data.
-    - Seamlessly integrated multiple data sources, transitioning through Bloomberg's
-      Desktop API, Server API, to Platform API, and utilizing Bloomberg DL Web Services
-      for bulk updates.
-    - Built a custom XLL for Excel integration, enhancing data accessibility for users.
-    - Developed a dedicated internal website for data visualization and analytics.
-    - Implemented multiple API endpoints/bindings, providing versatile access to the
-      data in formats such as REST, Python, C#, C++, Matlab, and R.
-    - Utilized CIX in Bloomberg to create custom index tickers, making them accessible
-      through the service.
-    - Backend development was conducted in C#, leveraging both Sungard and MSSQL databases
-      for optimal data storage and retrieval.
+      - Sources inclued Bloomberg Market/Reference Data, Sungard FAME Economic Time Series, Credit Suisse Holt Data, JPMorgan DQ, and Barclays BARX Data.
+      - Seamlessly integrated multiple data sources, transitioning through Bloomberg's
+        Desktop API, Server API, to Platform API, and utilizing Bloomberg DL Web Services
+        for bulk updates.
+      - Built a custom XLL for Excel integration, enhancing data accessibility for users.
+      - Developed a dedicated internal website for data visualization and analytics.
+      - Implemented multiple API endpoints/bindings, providing versatile access to the
+        data in formats such as REST, Python, C#, C++, Matlab, and R.
+      - Utilized CIX in Bloomberg to create custom index tickers, making them accessible
+        through the service.
+      - Backend development was conducted in C#, leveraging both Sungard and MSSQL databases
+        for optimal data storage and retrieval.
     keywords:
       - Bloomberg Market/Reference Data
       - Sungard FAME
@@ -583,25 +770,26 @@ projects:
       - Created a reconciler to mesh the responses from the NLP engine with the conversation model.
   - entity: SOLILOQUY INC
     name: Customer Feedback Analysis Platform
-    description: Developed a business intelligence platform tailored for companies to
+    description:
+      Developed a business intelligence platform tailored for companies to
       monitor and gain insights from customer feedback. The platform provided a comprehensive
       dashboard with various pivots, allowing businesses to dive deep into the feedback
       data and extract meaningful analyses.
     highlights:
-    - Delivered as a private website ensuring data confidentiality and security.
-    - Enabled monthly PDF exports, allowing businesses to share and discuss feedback
-      insights in a structured format.
-    - Offered custom analysis to clients as a premium service, adding an additional
-      layer of depth to the insights.
-    - Streamlined the feedback process, allowing businesses to quickly identify areas
-      of improvement based on customer feedback.
+      - Delivered as a private website ensuring data confidentiality and security.
+      - Enabled monthly PDF exports, allowing businesses to share and discuss feedback
+        insights in a structured format.
+      - Offered custom analysis to clients as a premium service, adding an additional
+        layer of depth to the insights.
+      - Streamlined the feedback process, allowing businesses to quickly identify areas
+        of improvement based on customer feedback.
     keywords:
-    - Business Intelligence
-    - Dashboard
-    - Customer Feedback
-    - Data Analysis
-    - Website
-    - PDF Exports
+      - Business Intelligence
+      - Dashboard
+      - Customer Feedback
+      - Data Analysis
+      - Website
+      - PDF Exports
 
 education:
   - institution: SUNY, Stony Brook
