@@ -125,6 +125,25 @@ work:
       - Evaluated, Architected Solutions for asset securitization of consumer loan portfolios (LoanPro, AWS, WebBank, Cross-River, ABS, SPV Financing)
       - Evaluated, Implemented, Deployed Loan Management/Servicing into fintech startup's infrastructure (LoanPro, AWS, Credit Scoring, GBM, Machine Learning)
       - Built Consumer Loan Application Web Application for machine learning fintech startup (React, Node, AWS, Serverless, LoanPro, Plaid, Python, Keras)
+    keywords:
+      - AWS
+      - React
+      - Expo
+      - React Native
+      - Stripe
+      - Node
+      - AppSync
+      - Serverless
+      - Python
+      - QuickSight
+      - Docker
+      - Containers
+      - Rekognition
+      - D3
+      - Syncfusion
+      - Diagramming
+      - LoanPro
+    
   - name: DYNAMO FUND
     position: CTO (Startup Hedge Fund - systematic macro)
     location: New York, NY/Greenwich, CT
@@ -236,23 +255,77 @@ work:
       - Developed Prototype, Developed/Managed redesign to final product. (IIS/ASP, Linux Apache, C++, CORBA, PERL, Smalltalk)
 projects:
   - entity: QCOMPUTE LLC
+    name: Securitization Workflow Platform for a fintech firm
+    description: Built a POC for securitization workflow that onboards companies seeking financing across the breadth of their lifecycles.
+    highlights:
+      - Orchestrated best in class fintech saas solutions to augment/replace existing deal workflow with modern automated solutions.
+      - Integrated with Bloomberg solutions to ensure accurate and up-to-date offerings are referencable in the institutional capital markets ecosystem.
+    keywords:
+      - AWS
+      - React
+      - Expo
+      - React Native
+      - Stripe
+      - Node
+      - Bedrock
+      - LLM
+      - Serverless/SST
+      - Python
+      - QuickSight
+      - Docker
+      - Containers
+      - Rekognition
+      - D3
+      - Syncfusion
+      - Diagramming
+      - LoanPro
+  - entity: QCOMPUTE LLC
     name: Credit Monitor App for a fintech firm
     description: Developed a consumer-centric credit monitoring application focused on early detection and proactive management.
     highlights:
-      - Built a consumer credit monitoring service with a focus on early detection, leveraging React PWA for a seamless user experience (AWS React Stripe Node Serverless Python).
+      - Built a consumer credit monitoring service with a focus on early detection, leveraging React PWA for a seamless user experience.
       - Ensured real-time updates and alerts to users, allowing them to take proactive measures in managing their credit.
+    keywords:
+      - AWS 
+      - React 
+      - Expo
+      - React Native
+      - Stripe 
+      - Node 
+      - Serverless 
+      - Python
 
   - entity: QCOMPUTE LLC
     name: Metro2 Reporting Portal for a credit reporting agency
     description: Designed a robust credit reporting data validation and enrichment portal, ensuring accurate and comprehensive credit reports.
     highlights:
-      - Constructed a scalable credit reporting data validation/enrichment service, ensuring data integrity and accuracy (AWS React Stripe Docker Containers Serverless Node Python QuickSight).
+      - Constructed a scalable credit reporting data validation/enrichment service, ensuring data integrity and accuracy.
+    keyword:
+      - AWS 
+      - React 
+      - Stripe 
+      - Docker 
+      - Containers 
+      - Serverless 
+      - Node 
+      - Python 
+      - QuickSight
 
   - entity: QCOMPUTE LLC
     name: PO-Financing App for a fintech firm
     description: Pioneered an invoice financing platform tailored for the food services sector, streamlining financial operations for startups.
     highlights:
-      - Developed a POC invoice financing platform catering to the unique needs of the food services sector and fintech financing startups (AWS React Node Python Rekognition D3 Syncfusion Diagramming LoanPro).
+      - Developed a POC invoice financing platform catering to the unique needs of the food services sector and fintech financing startups.
+    keywords: 
+      - AWS 
+      - React 
+      - Node 
+      - Python 
+      - Rekognition 
+      - D3 
+      - Syncfusion 
+      - Diagramming 
+      - LoanPro
 
   - entity: QCOMPUTE LLC
     name: AIM - Consumer Loan Securitization for a capital markets firm
@@ -290,9 +363,9 @@ projects:
 
   - entity: DYNAMO FUND
     name: Remote Agent for Bloomberg Terminal
-    description: Innovated a remote agent solution using reverse SSH tunnels, maximizing the utility of a single Bloomberg terminal across various applications.
+    description: Innovated a remote agent solution, maximizing the utility of a single Bloomberg terminal across various applications.
     highlights:
-      - Designed and implemented a remote agent via reverse SSH tunnels, allowing for versatile use of a single Bloomberg terminal for trading, EOD, and risk applications.
+      - Designed and implemented a remote agent, allowing for versatile use of a single Bloomberg terminal for trading, EOD, and risk applications.
 
   - entity: DYNAMO FUND
     name: Automated Fund Investor Presentations
