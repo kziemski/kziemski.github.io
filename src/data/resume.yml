@@ -18,7 +18,7 @@ skills:
       - SuperD
       - ICAP
       - JPM (DQ)
-      - ICAP
+
   - name: 3rd Party Systems
     keywords:
       - Geneva
@@ -33,13 +33,12 @@ skills:
       - MarkitSERV
       - FXAll
       - Intex
-      - Calypso
-      - TradeWeb
       - Murex
       - Quantifi
       - FinCAD
       - ITO33
       - Numerix
+
   - name: Infrastructure/Databases
     keywords:
       - AD
@@ -59,6 +58,11 @@ skills:
       - Hadoop
       - HDFS
       - Kubernetes
+      - AppSync
+      - AWS Bedrock
+      - Distributed Systems
+      - Update Frames
+
   - name: Programming/Messaging
     keywords:
       - .NET/F#/C#
@@ -72,22 +76,56 @@ skills:
       - OLAP
       - CUDA
       - Mobile
-      - Node
+      - Node.js
       - React
       - Reactive
       - Serverless
       - Solidity
       - Rust
+
   - name: Product Knowledge/Analytics
     keywords:
       - FX
       - FI/Credit
       - OTC
       - Structured/Derivatives valuation
-      - FinCAD
-      - Numerix
-      - ITO33
-      - CreditAnalytics
+      - Equity Derivatives
+      - Fixed Income
+      - Equities
+      - Derivatives
+      - Alternative Investments
+      - Asset Management
+      - Capital Markets
+      - Private Equity
+      - Financial Systems Implementation
+      - Unified Hedge Fund Infrastructure
+      - Macro Trading/Risk/Portfolio Management System
+      - Financial Modeling
+      - Investment Management
+      - Investments
+      - Valuation
+      - Emerging Markets
+      - Risk Management
+      - Foreign Exchange
+      - Structured Finance
+      - Trading Systems
+      - Hedge Funds
+      - Portfolio Management
+      - Electronic Trading
+      - FX Options
+      - Credit Derivatives
+      - Financial Markets
+      - Trading Strategies
+      - Interest Rate Derivatives
+      - Trading System
+      - Commodity
+      - FX trading
+      - Technical Analysis
+      - Exchange Connectivity
+      - Quantitative Finance
+      - Market Data
+      - Low Latency
+
   - name: Data Science/Quant/AI/ML/Visualization
     keywords:
       - Spark
@@ -113,6 +151,12 @@ skills:
       - Bokeh
       - Dash
       - Tableau
+      - KDB
+      - LangChain
+      - Machine Learning
+      - Large Language Models (LLM)
+      - Natural Language Processing (NLP)
+      - Artificial Intelligence (AI)
 work:
   - name: QCOMPUTE LLC
     position: Owner (Notable Projects consulting for various Fintech/Capital Markets)
