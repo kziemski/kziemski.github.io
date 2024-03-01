@@ -1,0 +1,394 @@
+---
+import SiteLayout from "../layouts/Minimalist.astro";
+import { schema } from "../utils/resumeSchema";
+import { parse, stringify } from "yaml";
+import fs from "fs";
+import yml from "../data/resume.yml";
+import { z } from "zod";
+import slug from 'limax';
+import {format} from 'date-fns'; 
+const title = "Kryspin Ziemski - Resume";
+const description = "Resume for Kryspin Ziemski";
+const pdfLink = "/resume.pdf";
+const resume = "../data/resume.json";
+type Resume = z.infer<typeof schema>;
+const resume_obj: Resume = schema.parse(yml);
+const formatDate = (date: string | undefined) => {
+  try {
+    if(!date) return 'Present';
+    if(typeof date === 'number' || (typeof date === 'string' && date.length === 4 )) return date;
+    return format(new Date(date), 'MMMM yyyy');
+  }catch(e) {
+    return date;
+  }
+};
+
+
+---
+
+<SiteLayout frontmatter={{ title, description, pdfLink }}>
+  <Fragment slot="head">
+    <meta charset="utf-8" />
+    <title>KRYSPIN ZIEMSKI</title>
+    <meta
+      name="description"
+      content="Complete Technologist (Infrastructure/Developer/Trading Systems) with a wide skillset and financial knowledge able to provide front to back solutions for financial firms. Possessing a “Self-starter” mentality with a proven track record in taking funds from startup to a fully operational phase."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+    />
+    <style>
+      :root {
+        /* Colors */
+        --primaryColor: #212529;
+        --secondaryColor: #95a5a6;
+        --accentColor: #f1c40f;
+        --linkColor: #2ecc71;
+        --mutedColor: #f4f6f6;
+
+        /* Typography */
+        --ratio: 1.25;
+        --scale0: 1rem;
+        --scale1: calc(var(--scale0) * var(--ratio));
+        --scale2: calc(var(--scale1) * var(--ratio));
+        --scale3: calc(var(--scale2) * var(--ratio));
+        --scale4: calc(var(--scale3) * var(--ratio));
+        --scale5: calc(var(--scale4) * var(--ratio));
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 14px;
+      }
+
+      .bodyDiv {
+        color: var(--primaryColor);
+        display: grid;
+        font:
+          1em/1.5 Lato,
+          sans-serif;
+        gap: 2em;
+        grid-template-columns:
+          [full-start]
+          1fr
+          [main-start side-start]
+          minmax(min-content, 12em)
+          [side-end content-start]
+          minmax(min-content, 36em)
+          [main-end content-end]
+          1fr
+          [full-end];
+        grid-template-rows: auto [content] 0;
+        margin-bottom: 4em;
+      }
+
+      .bodyDiv::before {
+        content: "";
+        grid-column: full;
+        grid-row: content;
+      }
+
+      ol,
+      ul {
+        padding-left: 1em;
+      }
+
+      li + li {
+        margin-top: 0.2em;
+      }
+
+      li::marker {
+        color: var(--mutedColor);
+      }
+
+      a {
+        color: var(--linkColor);
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+
+      a:focus,
+      a:hover {
+        color: var(--accentColor);
+      }
+
+      h1,
+      h2,
+      h3,
+      h5 {
+        font-weight: normal;
+      }
+
+      h1,
+      h2,
+      h3 {
+        line-height: 1.2;
+      }
+
+      h1 {
+        font-size: var(--scale5);
+      }
+
+      h2 {
+        color: var(--secondaryColor);
+        font-size: var(--scale4);
+      }
+
+      h3 {
+        color: var(--accentColor);
+        font-size: var(--scale3);
+        grid-column: side;
+        margin-bottom: 1rem;
+      }
+
+      h4 {
+        font-size: var(--scale2);
+      }
+
+      h5 {
+        font-size: var(--scale1);
+      }
+
+      h6 {
+        font-size: var(--scale0);
+      }
+
+      blockquote {
+        border-left: 0.2em solid var(--mutedColor);
+        padding-left: 1em;
+      }
+
+      cite {
+        color: var(--secondaryColor);
+        font-style: inherit;
+      }
+
+      cite::before {
+        content: "— ";
+      }
+
+      .masthead {
+        background: var(--mutedColor);
+        display: inherit;
+        gap: inherit;
+        grid-column: full;
+        grid-template-columns: inherit;
+        padding: 4em 0;
+        row-gap: 0;
+      }
+
+      .masthead > *,
+      section {
+        grid-column: main;
+      }
+
+      article > * + *,
+      blockquote > * + * {
+        margin-top: 0.6em;
+      }
+
+      .stack {
+        display: grid;
+        gap: 1.5em;
+      }
+
+      .grid-list {
+        display: grid;
+        gap: 1em;
+      }
+
+      .spaced-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .spaced-list:first-child::before {
+        border-bottom: 1px solid var(--mutedColor);
+        content: "";
+        flex-grow: 1;
+        margin: 0 1em;
+        order: 1;
+      }
+
+      .spaced-list > :nth-child(2) {
+        order: 2;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+      }
+
+      .tag-list > li {
+        background: var(--mutedColor);
+        margin: 0 0.2em 0.2em 0;
+        padding: 0.2em 0.6em;
+      }
+
+      @media print, (min-width: 48em) {
+        h3 {
+          text-align: right;
+          margin-bottom: inherit;
+        }
+
+        .masthead > *,
+        section {
+          grid-column: content;
+        }
+
+        section {
+          display: contents;
+        }
+
+        .grid-list {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+    </style>
+  </Fragment>
+
+  <div class="bodyDiv">
+    <header class="masthead">
+      <h1>{resume_obj.basics.name}</h1>
+    </header>
+    <section id="contact">
+      <h3>Contact</h3>
+      <div class="grid-list">
+        <div>
+          <h4>Email</h4>
+          <a href={`mailto:${resume_obj.basics.email}`}
+            >{resume_obj.basics.email}</a
+          >
+        </div>
+        <div>
+          <h4>Phone</h4>
+          <a href={`tel:${resume_obj.basics.phone}`}
+            >{resume_obj.basics.phone}</a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h3>About</h3>
+      <article>
+        <p>
+          {resume_obj.basics.summary}
+        </p>
+      </article>
+    </section>
+
+    <section id="work">
+      <h3>Work</h3>
+      <div class="stack">
+        {
+          resume_obj.work.map((w) => (
+            <article id={slug(w.name)}>
+              <header>
+                <div class="spaced-list">
+                  <h4>{w.name}</h4>
+                  <span>
+                    <time datetime={w.startDate}>{formatDate(w.startDate)}</time> –
+                    <time datetime={w?.endDate ??  "Present"}>
+                      {formatDate(w.endDate)}
+                    </time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <strong>{w.summary}</strong>
+                </div>
+              </header>
+              <h5>Highlights</h5>
+              <ul>
+                {w.highlights.map((h) => (
+                  <li>{h}</li>
+                ))}
+              </ul>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+   
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="stack">
+        {
+          resume_obj?.projects.map((p) => (
+            <div>
+              <h4>{p.name}</h4>
+              <a href={`#${slug(p.entity)}`}>{p.entity}</p>
+              {p.description && <p>{p.description}</p>}
+              <h5>Highlights</h5>
+              <ul>
+                {p.highlights.map((h) => (
+                  <li>{h}</li>
+                ))}
+              </ul>
+              {p.keywords && <h5>Keywords</h5>
+              <ul class="tag-list">
+                {
+                  p.keywords.map((k) => (
+                    <li>{k}</li>
+                  ))
+                }
+              </ul>}
+            </div>
+          ))
+        }
+      </div>
+    </section>
+    <section id="skills">
+      <h3>Skills</h3>
+      <div class="grid-list">
+        {
+          resume_obj.skills.map((s) => (
+            <div>
+              <h4>{s.name}</h4>
+              <ul class="tag-list">
+                {
+                  s.keywords.map((k) => (
+                    <li>{k}</li>
+                  ))
+                }
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+    <section id="education">
+      <h3>Education</h3>
+      <div class="stack">
+        {
+          resume_obj.education.map((ed) => (
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>{ed.institution}</h4>
+                  <span>
+                    <time datetime={ed.startDate}>{ed.startDate}</time> –
+                    <time datetime={ed.endDate}>{ed.endDate}</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <strong>{ed.area}</strong>
+                </div>
+              </header>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+  </div>
+</SiteLayout>
